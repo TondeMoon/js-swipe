@@ -16,6 +16,7 @@ body {
   border-radius: 10px;
   width: 80%;
   height: 150px;
+  font-size: 2rem;
 }
 
 .submitButton {
@@ -31,7 +32,6 @@ body {
 
 .list {
   list-style: none;
-  font-size: 1rem;
 }
 
 @keyframes fadeIn {
@@ -50,6 +50,7 @@ li {
   animation: fadeIn;
   animation-duration: 4s;
   text-align: justify;
+  font-size: 2rem;
 }
 .clockScreen {
   display: flex;
@@ -67,4 +68,11 @@ li {
 
 .hide {
   display: none;
+}
+
+@media (min-width: 900px) {
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }
